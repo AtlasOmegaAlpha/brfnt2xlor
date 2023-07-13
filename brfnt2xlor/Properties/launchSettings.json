@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "brfnt2xlor": {
+      "commandName": "Project",
+      "commandLineArgs": "kart_kanji_font.brfnt kart_kanji_font.xlor"
+    }
+  }
+}
