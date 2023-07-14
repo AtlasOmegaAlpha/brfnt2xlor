@@ -104,7 +104,7 @@ namespace brfnt2xlor
             writer.WriteSimpleElement("title", outputName);
             writer.WriteStartElement("generator");
             writer.WriteAttributeString("name", "brfnt2xlor");
-            writer.WriteAttributeString("version", "1, 0, 0, 0");
+            writer.WriteAttributeString("version", "1, 0, 1, 0");
             writer.WriteEndElement(); // generator
             writer.WriteEndElement(); // head
             //writer.WriteWhitespace("\n\n");
@@ -112,7 +112,7 @@ namespace brfnt2xlor
             writer.WriteStartElement("body");
             writer.WriteStartElement("area");
             writer.WriteAttributeInt("width", glyphsPerRow);
-            writer.WriteAttributeInt("height", glyphsPerColumn);
+            //writer.WriteAttributeInt("height", glyphsPerColumn);
             writer.WriteEndElement(); // area
 
             //writer.WriteWhitespace("\n\n");
